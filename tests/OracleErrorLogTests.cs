@@ -22,7 +22,7 @@ namespace Elmah.Oracle.Tests
     using System.Collections.Generic;
     using System.Data.Common;
     using Xunit;
-    using OracleErrorLog = o::Elmah.OracleErrorLog;
+    using OracleErrorLog = o::Elmah.Oracle.OracleErrorLog;
     using DbProviderFactoryQuery = o::Elmah.DbProviderFactoryQuery;
 
     public class OracleErrorLogTests
