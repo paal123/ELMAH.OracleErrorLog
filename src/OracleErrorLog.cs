@@ -1,12 +1,4 @@
-#region License, Terms and Author(s)
-//
-// ELMAH - Error Logging Modules and Handlers for ASP.NET
-// Copyright (c) 2004-9 Atif Aziz. All rights reserved.
-//
-//  Author(s):
-//
-//      James Driscoll, mailto:jamesdriscoll@btinternet.com
-//      with contributions from Hath1
+#region Copyright 2007 James Driscoll. All rights reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
