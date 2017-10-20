@@ -17,9 +17,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="bin\net-3.5\Release\Elmah.Oracle.*" target="lib\net35" />
-    <file src="bin\net-4.0\Release\Elmah.Oracle.*" target="lib\net40" />
-    <file src="bin\net-4.5\Release\Elmah.Oracle.*" target="lib\net45" />
+    <file src="bin\Release\Elmah.Oracle.*" target="lib\net35" />
     <file src="COPYING.txt" />
     <file src="src\readme.txt" target="" />
     <file src="src\Oracle.sql" target="" />
