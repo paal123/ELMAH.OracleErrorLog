@@ -37,6 +37,7 @@ namespace Elmah
     using System.Reflection;
     using System.Text;
     using IDictionary = System.Collections.IDictionary;
+    using Debug = System.Diagnostics.Debug;
 
     #endregion
 

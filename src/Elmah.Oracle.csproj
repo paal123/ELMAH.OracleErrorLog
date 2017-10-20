@@ -132,9 +132,7 @@
     <Compile Include="ConnectionStringHelper.cs" />
     <Compile Include="DbCommandExtensions.cs" />
     <Compile Include="DbProviderFactoryQuery.cs" />
-    <Compile Include="Debug.cs" />
     <Compile Include="DictionaryExtensions.cs" />
-    <Compile Include="JetBrains.Annotations.cs" />
     <Compile Include="KeyValuePair.cs" />
     <Compile Include="Memoization.cs" />
     <Compile Include="MoreLinq\MoreEnumerable.Index.cs" />

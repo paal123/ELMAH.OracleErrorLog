@@ -28,6 +28,7 @@ namespace Elmah
     using System;
     using System.Collections.Generic;
     using System.Threading;
+    using Debug = System.Diagnostics.Debug;
 
     #endregion
 
