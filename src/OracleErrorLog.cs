@@ -14,8 +14,6 @@
 //
 #endregion
 
-[assembly: Elmah.Scc("$Id: OracleErrorLog.cs 926 2011-12-23 22:50:57Z azizatif $")]
-
 namespace Elmah.Oracle
 {
     #region Imports
