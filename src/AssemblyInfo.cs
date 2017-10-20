@@ -45,4 +45,4 @@ using InternalsVisibleToAttribute = System.Runtime.CompilerServices.InternalsVis
 [assembly: CLSCompliant(true)]
 [assembly: ComVisible(false)]
 
-[assembly: InternalsVisibleTo("Elmah.Tests")]
+[assembly: InternalsVisibleTo("Elmah.Oracle.Tests")]
