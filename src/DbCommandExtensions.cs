@@ -27,11 +27,11 @@ namespace Elmah
     /// <summary>
     /// Extension methods for <see cref="IDbCommand"/> objects.
     /// </summary>
-    
+
     static class DbCommandExtensions
     {
         /// <remarks>
-        /// Use <see cref="Missing.Value"/> for parameter value to avoid 
+        /// Use <see cref="Missing.Value"/> for parameter value to avoid
         /// having it set by the returned function.
         /// </remarks>
 
@@ -41,7 +41,7 @@ namespace Elmah
         }
 
         /// <remarks>
-        /// Use <see cref="Missing.Value"/> for parameter value to avoid 
+        /// Use <see cref="Missing.Value"/> for parameter value to avoid
         /// having it set by the returned function.
         /// </remarks>
 

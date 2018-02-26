@@ -27,7 +27,7 @@ namespace Elmah
     static class ConnectionStringHelper
     {
         /// <summary>
-        /// Gets the connection string from the given configuration 
+        /// Gets the connection string from the given configuration
         /// dictionary.
         /// </summary>
 
@@ -36,8 +36,8 @@ namespace Elmah
             Debug.Assert(config != null);
 
             //
-            // First look for a connection string name that can be 
-            // subsequently indexed into the <connectionStrings> section of 
+            // First look for a connection string name that can be
+            // subsequently indexed into the <connectionStrings> section of
             // the configuration to get the actual connection string.
             //
 
@@ -54,7 +54,7 @@ namespace Elmah
             }
 
             //
-            // Connection string name not found so see if a connection 
+            // Connection string name not found so see if a connection
             // string was given directly.
             //
 
@@ -63,20 +63,20 @@ namespace Elmah
                 return connectionString;
 
             //
-            // As a last resort, check for another setting called 
-            // connectionStringAppKey that specifies the key in 
-            // <appSettings> that contains the actual connection string to 
+            // As a last resort, check for another setting called
+            // connectionStringAppKey that specifies the key in
+            // <appSettings> that contains the actual connection string to
             // be used.
             //
 
             var connectionStringAppKey = config.Find("connectionStringAppKey", string.Empty);
-            return connectionStringAppKey.Length > 0 
-                 ? ConfigurationManager.AppSettings[connectionStringAppKey] 
+            return connectionStringAppKey.Length > 0
+                 ? ConfigurationManager.AppSettings[connectionStringAppKey]
                  : string.Empty;
         }
 
         /// <summary>
-        /// Gets the provider name from the named connection string (if supplied) 
+        /// Gets the provider name from the named connection string (if supplied)
         /// from the given configuration dictionary.
         /// </summary>
 
@@ -85,8 +85,8 @@ namespace Elmah
             Debug.Assert(config != null);
 
             //
-            // First look for a connection string name that can be 
-            // subsequently indexed into the <connectionStrings> section of 
+            // First look for a connection string name that can be
+            // subsequently indexed into the <connectionStrings> section of
             // the configuration to get the actual connection string.
             //
 

@@ -47,7 +47,7 @@ namespace Elmah.Oracle
 
         private const int _maxAppNameLength = 60;
         private const int _maxSchemaNameLength = 30;
-        
+
         /// <summary>
         /// Initializes a new instance of the <see cref="OracleErrorLog"/> class
         /// using a dictionary of configured settings.
@@ -61,7 +61,7 @@ namespace Elmah.Oracle
             var connectionString = ConnectionStringHelper.GetConnectionString(config);
 
             //
-            // If there is no connection string to use then throw an 
+            // If there is no connection string to use then throw an
             // exception to abort construction.
             //
 
@@ -106,7 +106,7 @@ namespace Elmah.Oracle
 
         /// <summary>
         /// Initializes a new instance of the <see cref="OracleErrorLog"/> class
-        /// to use a specific connection string and provider for connecting 
+        /// to use a specific connection string and provider for connecting
         /// to the database.
         /// </summary>
         /// <remarks>
@@ -116,21 +116,21 @@ namespace Elmah.Oracle
         /// validated so any other provider will yield undefined behavior.
         /// </remarks>
 
-        public OracleErrorLog(string connectionString, DbProviderFactory dbProviderFactory) : 
+        public OracleErrorLog(string connectionString, DbProviderFactory dbProviderFactory) :
             this(connectionString, null, dbProviderFactory) {}
 
         /// <summary>
         /// Initializes a new instance of the <see cref="OracleErrorLog"/> class
-        /// to use a specific connection string for connecting  to the database. 
+        /// to use a specific connection string for connecting  to the database.
         /// An additional parameter specifies the schema owner.
         /// </summary>
 
-        public OracleErrorLog(string connectionString, string schemaOwner) : 
+        public OracleErrorLog(string connectionString, string schemaOwner) :
             this(connectionString, schemaOwner, null) {}
 
         /// <summary>
         /// Initializes a new instance of the <see cref="OracleErrorLog"/> class
-        /// to use a specific connection string and provider  for connecting 
+        /// to use a specific connection string and provider  for connecting
         /// to the database. An additional parameter specifies the schema owner.
         /// </summary>
         /// <remarks>
@@ -276,7 +276,7 @@ namespace Elmah.Oracle
         }
 
         /// <summary>
-        /// Returns a page of errors from the databse in descending order 
+        /// Returns a page of errors from the databse in descending order
         /// of logged time.
         /// </summary>
 
@@ -336,7 +336,7 @@ namespace Elmah.Oracle
         }
 
         /// <summary>
-        /// Returns the specified error from the database, or null 
+        /// Returns the specified error from the database, or null
         /// if it does not exist.
         /// </summary>
 
