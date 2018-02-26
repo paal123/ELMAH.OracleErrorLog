@@ -134,8 +134,9 @@ namespace Elmah.OracleErrorLog
         /// to the database. An additional parameter specifies the schema owner.
         /// </summary>
         /// <remarks>
-        /// The only supported <see cref="DbProviderFactory"/> instances are
-        /// those of <c>Oracle.DataAccess.Client</c> (ODP.NET) and
+        /// The only verified <see cref="DbProviderFactory"/> instances are
+        /// <c>Oracle.DataAccess.Client</c> (ODP.NET),
+        /// <c>Oracle.ManagedDataAccess.Client</c> and
         /// <c>System.Data.OracleClient</c>. The supplied instance is not
         /// validated so any other provider will yield undefined behavior.
         /// </remarks>
@@ -413,12 +414,10 @@ namespace Elmah.OracleErrorLog
             else
             {
                 //
-                // Otherwise, we try to use ODP.Net in the first instance
-                // and then fallback to the Microsoft client.
+                // Otherwise, we fallback to the Microsoft client.
                 //
 
-                dbProviderFactory = DbProviderFactoryQuery.FindFactory("Oracle.DataAccess.Client")
-                                    ?? DbProviderFactoryQuery.GetFactory("System.Data.OracleClient");
+                dbProviderFactory = DbProviderFactoryQuery.GetFactory("System.Data.OracleClient");
             }
 
             return dbProviderFactory;

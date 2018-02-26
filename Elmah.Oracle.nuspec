@@ -2,10 +2,10 @@
 <package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <id>elmah.oracleerrorlog</id>
-    <version>2.0.0$VersionSuffix$</version>
+    <version>2.0.1-alpha001</version>
     <title>Oracle Error Log for ELMAH</title>
-    <authors>Paul Eie</authors>
-    <owners>Atif Aziz, James Driscoll</owners>
+    <authors>Atif Aziz, James Driscoll, Paul Eie</authors>
+    <owners>Paul Eie</owners>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
     <projectUrl>https://github.com/paal123/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
