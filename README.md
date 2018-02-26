@@ -24,5 +24,5 @@ To use the OracleErrorLog for Oracle Managed Driver, add the following in your w
 * Oracle.DataAccess.Client (Requires ODP.Net installed)
 * System.Data.OracleClient (Requires Oracle client installed)
 
-[nuget-badge]: https://img.shields.io/nuget/v/elmah.oracle.svg
-[nuget-pkg]: https://www.nuget.org/packages/elmah.oracle
+[nuget-badge]: https://img.shields.io/nuget/v/elmah.oracleerrorlog.svg
+[nuget-pkg]: https://www.nuget.org/packages/elmah.oracleerrorlog
