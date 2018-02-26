@@ -49,9 +49,9 @@
     <Compile Include="TypeExtensionsTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\src\Elmah.Oracle.csproj">
+    <ProjectReference Include="..\src\Elmah.OracleErrorLog.csproj">
       <Project>{1eff8e01-6259-4e57-a2e7-a44f201077de}</Project>
-      <Name>Elmah.Oracle</Name>
+      <Name>Elmah.OracleErrorLog</Name>
       <Aliases>o</Aliases>
     </ProjectReference>
   </ItemGroup>

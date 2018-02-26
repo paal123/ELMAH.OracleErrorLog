@@ -14,7 +14,7 @@
 //
 #endregion
 
-namespace Elmah.Oracle.Tests
+namespace Elmah.OracleErrorLog.Tests
 {
     extern alias o;
 

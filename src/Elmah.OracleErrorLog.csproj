@@ -8,8 +8,8 @@
     <ProjectGuid>{1EFF8E01-6259-4E57-A2E7-A44F201077DE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Elmah.Oracle</RootNamespace>
-    <AssemblyName>Elmah.Oracle</AssemblyName>
+    <RootNamespace>Elmah.OracleErrorLog</RootNamespace>
+    <AssemblyName>Elmah.OracleErrorLog</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\</SolutionDir>

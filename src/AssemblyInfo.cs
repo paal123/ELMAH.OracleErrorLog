@@ -24,7 +24,7 @@ using InternalsVisibleToAttribute = System.Runtime.CompilerServices.InternalsVis
 
 #endregion
 
-[assembly: AssemblyTitle("Elmah.Oracle")]
+[assembly: AssemblyTitle("Elmah.OracleErrorLog")]
 [assembly: AssemblyDescription("Oracle Support for ELMAH")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("ELMAH")]

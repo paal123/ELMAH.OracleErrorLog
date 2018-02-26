@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-    <id>elmah.oracle</id>
+    <id>elmah.oracleerrorlog</id>
     <version>2.0.0$VersionSuffix$</version>
     <title>Oracle Error Log for ELMAH</title>
-    <authors>James Driscoll</authors>
+    <authors>Paul Eie</authors>
     <owners>Atif Aziz, James Driscoll</owners>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
-    <projectUrl>https://github.com/elmah/OracleErrorLog</projectUrl>
+    <projectUrl>https://github.com/paal123/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>ELMAH error log implementation on top of an Oracle database.</description>
     <language>en-US</language>
@@ -17,7 +17,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="bin\Release\Elmah.Oracle.*" target="lib\net35" />
+    <file src="bin\Release\Elmah.OracleErrorLog.*" target="lib\net35" />
     <file src="COPYING.txt" />
     <file src="src\readme.txt" target="" />
     <file src="src\Oracle.sql" target="" />

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2002
+VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{889F34A5-2602-4B01-8DCB-5BED7FFDA3E9}"
 	ProjectSection(SolutionItems) = preProject
@@ -14,7 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elmah.Oracle", "src\Elmah.Oracle.csproj", "{1EFF8E01-6259-4E57-A2E7-A44F201077DE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elmah.OracleErrorLog", "src\Elmah.OracleErrorLog.csproj", "{1EFF8E01-6259-4E57-A2E7-A44F201077DE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elmah.Oracle.Tests", "tests\Elmah.Oracle.Tests.csproj", "{C6AF9058-D17E-48B4-887B-AD42BB458750}"
 EndProject
