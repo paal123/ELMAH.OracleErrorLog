@@ -2,7 +2,7 @@
 
 [![NuGet][nuget-badge]][nuget-pkg]
 
-An ELMAH `ErrorLog` implementation that uses an Oracle database as the storage.
+An ELMAH `ErrorLog` implementation that uses an Oracle database as the storage. The `ErrorLog` supports both managed and unmanaged drivers, as well as System.Data.OracleClient.
 
 To use the OracleErrorLog for Oracle Managed Driver, add the following in your web.config:
 ```xml
@@ -20,7 +20,7 @@ To use the OracleErrorLog for Oracle Managed Driver, add the following in your w
   </connectionStrings>
 ```
 *NOTE:* The following providers are supported:
-* Oracle.ManagedDataAccess.Client
+* Oracle.ManagedDataAccess.Client (Requires Oracle.ManagedDataAccess)
 * Oracle.DataAccess.Client (Requires ODP.Net installed)
 * System.Data.OracleClient (Requires Oracle client installed)
 
