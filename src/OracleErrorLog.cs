@@ -14,7 +14,7 @@
 //
 #endregion
 
-namespace Elmah.OracleErrorLog
+namespace Elmah.Oracle
 {
     #region Imports
 

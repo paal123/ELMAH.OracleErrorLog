@@ -14,7 +14,7 @@
 //
 #endregion
 
-namespace Elmah.OracleErrorLog.Tests
+namespace Elmah.Oracle.Tests
 {
     extern alias o;
 
@@ -22,7 +22,7 @@ namespace Elmah.OracleErrorLog.Tests
     using System.Collections.Generic;
     using System.Data.Common;
     using Xunit;
-    using OracleErrorLog = o::Elmah.OracleErrorLog.OracleErrorLog;
+    using OracleErrorLog = o::Elmah.Oracle.OracleErrorLog;
     using DbProviderFactoryQuery = o::Elmah.DbProviderFactoryQuery;
 
     public class OracleErrorLogTests
