@@ -13,7 +13,7 @@ To use the OracleErrorLog for Oracle Managed Driver, add the following in your w
     </DbProviderFactories>
   </system.data>
   <elmah>
-    <errorLog type="Elmah.OracleErrorLog, Elmah.Oracle" connectionStringName="elmah-connection"/>
+    <errorLog type="Elmah.Oracle.OracleErrorLog, Elmah.Oracle" connectionStringName="elmah-connection"/>
   </elmah>
   <connectionStrings>
     <add name="elmah-connection" connectionString="<your connection string>" providerName="Oracle.ManagedDataAccess.Client"/>
