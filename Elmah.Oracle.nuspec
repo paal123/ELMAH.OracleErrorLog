@@ -2,7 +2,7 @@
 <package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <id>elmah.oracleerrorlog</id>
-    <version>2.0.1-alpha002</version>
+    <version>2.0.1-alpha003</version>
     <title>Oracle Error Log for ELMAH</title>
     <authors>Atif Aziz, James Driscoll, Paul Eie</authors>
     <owners>Paul Eie</owners>
@@ -13,7 +13,7 @@
     <language>en-US</language>
     <tags>oracle elmah error logging unhandled exception</tags>
     <dependencies>
-      <dependency id="elmah.corelibrary" version="2.0.0-alpha002" />
+      <dependency id="elmah.corelibrary" version="2.0.0-*" />
     </dependencies>
   </metadata>
   <files>
